@@ -1,0 +1,105 @@
+
+  .forms{ /*главный блок формы с фоном*/
+    position:relative;
+    width:1200px; 
+    height: 600px; 
+    border-radius: 60px; 
+    margin: 10% auto; 
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    background-image: url(../image/eyes.png), url(../image/view.png), url(../image/flower.png);
+    background-repeat: no-repeat, no-repeat,no-repeat;
+    background-position:  right 63px bottom 79px, center 57px, right 30px bottom 30px ;
+   
+   
+  }
+  .log{/*поле фамилии*/
+    position: absolute;
+    width: 400px;
+    height: 70px;
+    margin:151px 339.25px 308.14px 175px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius:30px;
+    text-align: center;
+    font-size: 24px;
+    font-weight:400;
+
+  }
+  input {/*обнуляет стиль для строки ввода*/
+    outline: none;
+    border: none;
+  }
+  ::placeholder { /*для полей формы регистрации изменение текста и т.д.*/
+    color: black;
+    font-size: 24px;
+    text-align:center;
+  }
+  :focus::-webkit-input-placeholder {/*команда для того, чтобы при вводе логина и пароля, текст названия убирался*/
+    color: transparent
+}
+.p1{/*Слово Регистрация*/
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    margin:58px 476px 495px 475px;
+ }
+ .gol{/*поле имя*/
+  position: absolute;
+  width: 400px;
+  height: 70px;
+  margin:261px 339.25px 198.14px 175px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius:30px;
+  text-align: center;
+  font-size: 24px;
+  font-weight:400;
+}
+.ogl{/*поле отчество*/
+  position: absolute;
+  width: 400px;
+  height: 70px;
+  margin:371px 625px 166.68px 175px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius:30px;
+  text-align: center;
+  font-size: 24px;
+  font-weight:400;
+}
+.olg{/*блок даты рождения*/
+  position: absolute;
+  width: 400px;
+  height: 70px;
+  margin:151px 171px 379px 625px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius:30px;
+  text-align: center;
+  font-size: 24px;
+  font-weight:400;
+}
+.lgo{/*поле СМП*/
+  position: absolute;
+  width: 400px;
+  height: 70px;
+  margin: 261px 175px 269px 625px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius:30px;
+  text-align: center;
+  font-size: 24px;
+  font-weight:400;
+}
+button{/*Кнопка дальше*/
+  position: absolute;
+  text-decoration:none;
+  color:black;
+  font-size: 24px;
+  justify-content: center;
+  margin:371px 225px 160.96px 675px;
+  background: #fff;
+  cursor: hand;
+  border: 0;
+  cursor: pointer;
+  width: 300px;
+  height: 68.04px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius:30px;
+}
+

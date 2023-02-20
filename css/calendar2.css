@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+a
+{
+  text-decoration: none;
+  color:white;
+}
+
+p
+{
+  font-family: 'Rubik', sans-serif;
+}
+
+ /*изменение*/     
+.container {
+  position: relative;
+  width: 1920px;
+  height: 1600px;
+}
+
+ /*изменение*/     
+ .navbar {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 1400px;
+  height: 100px;
+  margin: 50px 259px 2311px 240px;
+  z-index: 1;
+}
+
+/*Ссылки в меню*/
+.navbar a {
+  text-decoration: none;
+  height: 30px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 28px;
+
+  font-weight:bold;
+  z-index: 2;
+  color:black;
+}
+.navbar a:hover{
+  color:#7998F0;
+}
+
+   /*изменение*/     
+ /*Шапка*/
+.header {
+  position: absolute;
+  width: 100%;
+  height: 1047.44px;
+  margin-top: 40px;
+  background-image: url(../image/fon.png), url(../image/girl_and_doctor.png), url(../image/square1.png),url(../image/square2.png),url(../image/square2.png),url(../image/square2.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left 200px top 310px, right 300px top 100px, left 1500px top 130px, left 370px top 420px, left 150px top 300px, left 300px top 800px;
+}
+ /*изменение*/     
+/*Блок лозунг в шапке*/
+.text {
+  font-family: 'Rubik', sans-serif;
+  position: absolute;
+  display: flex;
+  width: 800px;
+  height: 114px;
+  margin: 169px 799px 2128px 250px;
+  flex-direction: column;
+  align-items: center;
+}
+ /*изменение*/     
+/*ОФрмление текста лозунга*/
+.text h1,
+h2 {
+  color: #EB5569;
+  font-size: 64px;
+  margin: 0 0 40px;
+  font-weight: 800;
+}
+  /*Стиль для основного блока календаря*/
+  .calendar {
+    position: absolute;
+    width: 1200px;
+    height: 750px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+    margin: 759px 359px 902px 361px;
+  }
+  
+  /*Для текста*/
+  .calendar p {
+    color: #7998F0;
+    text-align: center;
+    font-size: 48px;
+  }
+  
+  /*Центрирование для блока с фамилией, месяцем и т.д.*/
+  .choice {
+    margin: 23px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+  }
+  
+  /*Стиль для самих блоков с фаимилией*/
+  .month {
+    width: 250px;
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+  }
+  
+  /*для текста в блоке с выбором*/
+  .month p {
+    color: #7998F0;
+    text-align: center;
+    font-size: 32px;
+    margin: 20px 0;
+  }
+  
+  /*цифры*/
+  .number {
+    display: flex;
+    flex-flow: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    margin: 0 60px;
+    grid-gap: 80px 20px;
+  }
+  
+  
+  
+  
+/*подвал*/
+footer {
+  width: 1400px;
+  height: 519px;
+  background-image: url(../image/doctor.png), url(../image/doctor_woman.png), url(../image/flower.png), url(../image/view.png);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: left 500px bottom 60px, right 1px bottom 60px, left 670px bottom 6px, left 650px bottom 6px;
+}
+
+/*кружочек с числом*/
+.contac {
+  color: #EB5569;
+  text-align: center;
+  font-size: 36px;
+  padding: 220px 1px 273px 510px;
+  float: center;
+  font-weight: 800;
+  font-family: 'Rubik', sans-serif;
+
+}
+
+/*контакты*/
+.contact {
+  position: absolute;
+  width: 800px;
+  height: 114px;
+  margin: -100px 0 0 50px;
+  font-family: 'Rubik', sans-serif;
+}
+
+/*текст контактов*/
+.contact p {
+  color: #EB5569;
+  font-size: 24px;
+  line-height: 2;
+  font-weight: 800;
+  margin: 65px 0 0 100px;
+}
+  .form_radio_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    margin-bottom: -35px;
+  }
+  
+  .form_radio_btn input[type=radio] {
+    display: none;
+   
+  }
+  
+  .form_radio_btn label {
+    display: inline-block;
+    cursor: pointer;
+    width: 140px;
+    height: 65px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+  color: #000000;
+    user-select: none;
+  }
+  
+  /* Checked */
+  .form_radio_btn input[type=radio]:checked+label {
+    border: 2px solid #000000;
+    box-sizing: border-box;
+  
+  }
+  
+  /* Hover */
+  .form_radio_btn label:hover {
+    color: #666;
+  }
+  
+  /* Disabled */
+  .form_radio_btn input[type=radio]:disabled+label {
+    background: #efefef;
+    color: #666;
+  }
+  .buttons
+  {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+   /*изменение*/     
+    .sybmit, .sybmit1{
+      width: 300px;
+      height: 65px;
+      background: #7998F0;
+      border-radius: 60px;
+      border:none;
+      color:white;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-size: 24px;
+      font-weight: bold;
+      user-select:none;
+      margin-right:100px;
+      }
+      .sybmit1{
+        background:#EB5569;
+      }

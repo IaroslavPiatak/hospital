@@ -1,0 +1,264 @@
+/*Главный контейнер стиль*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+
+  
+  width: 1400px;
+  background-image: url(../image/doctor.png), url(../image/doctor_woman.png), url(../image/flower.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 8%, 8%, 8%;
+  background-position: left 100px top 2600px, right 50px top 1900px, right 60px top 2900px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+}
+
+/*Навигация*/
+.navbar {
+ 
+  width: 1400px;
+  height: 70px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+
+}
+
+/*Ссылки навигации*/
+.navbar_a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 32px;
+
+  font-weight: bold;
+  color: black;
+  font-family: 'Rubik', sans-serif;
+}
+
+.navbar_exit {
+  text-decoration: none;
+  text-align: center;
+  font-size: 32px;
+
+  font-weight: bold;
+  color: black;
+  font-family: 'Rubik', sans-serif;
+}
+
+.navbar_exit:hover {
+  color: #EC5863;
+}
+
+.navbar_a:hover {
+  color: #7998F0;
+}
+
+/*Шапка*/
+.header {
+
+
+  width: 1400px;
+  height: 440px;
+  background-image: url(../image/doctorheart.png);
+  background-size: 700px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: end;
+
+}
+
+/*Статус*/
+
+.status_block {
+  margin-top: 20px;
+  width: 800px;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.block
+{
+  width: 650px;
+  margin-bottom: 25px;
+
+}
+
+.block_submit
+{
+  width: 650px;
+  margin-bottom: 25px;
+ 
+  display: flex;
+  justify-content: start;
+
+}
+
+.speciali {
+
+
+  width: 800px;
+  height: 440px;
+
+  font-size: 36px;
+  color: #EC5863;
+  font-weight: bold;
+  display: flex;
+  flex-flow: wrap;
+
+
+}
+
+
+
+
+
+/*Текст в форме ввода*/
+
+/*Изменить*/
+.speciali_submit {
+
+  text-decoration: none;
+  color: white;
+  font-size: 28px;
+  background: #7998F0;
+  cursor: hand;
+  border: 0;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 30px;
+  font-family: 'Rubik', sans-serif;
+
+
+
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  width: 1200px;
+  height: 900px;
+
+  background-image: url(../image/view.png), url(../image/heart.png), url(../image/flower1.png), url(../image/flower2.png);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: center, right 150px top 100px, bottom 10px left 10px, bottom 10px right 10px;
+  background-size: 70%, 15%, 10%, 10%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 60px;
+
+}
+
+/*Заголовок*/
+.info_title {
+  width: 60%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+
+  color: #7998F0;
+  font-family: 'Rubik', sans-serif;
+
+}
+
+
+
+
+
+
+.speciali_label {
+  font-size: 36px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  color: #EC5863;
+}
+
+
+.speciali_input {
+
+  text-align: start;
+  font-size: 36px;
+  width: 400px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  color: #7998F0;
+  border: none;
+  outline: none;
+  background: none;
+
+
+
+}
+
+
+
+
+
+/**/
+/*Блок с информацией пациента*/
+.info_form {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  
+ 
+
+ 
+ 
+
+
+}
+
+/*Сюда входят input and label в форме с информацией пациента*/
+
+
+.block_info {
+  margin-top: 25px;
+
+
+}
+
+.block_info_button {
+
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+
+
+}
+
+.info_submit {
+  text-decoration: none;
+  color: white;
+  font-size: 28px;
+  background: #7998F0;
+  cursor: hand;
+  border: 0;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 30px;
+  font-family: 'Rubik', sans-serif;
+
+
+}

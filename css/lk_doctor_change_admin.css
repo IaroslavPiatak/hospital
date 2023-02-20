@@ -1,0 +1,206 @@
+.container{
+    position:relative;
+    width:1400px;
+    height:4500px;
+    background-image: url(../image/flower1.png),url(../image/square1.png),url(../image/square4.png);
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-position: top 1600px left 400px,top 140px left 400px,top 800px right;
+}
+.navbar {
+    position:absolute;
+    width:1400px;
+    height:71px;
+    margin:40px 220px 2311px 240px;
+
+  }
+/*Ссылки навигации*/
+.navbar a{
+    text-decoration:none;
+    text-align:center;
+    font-size: 24px;
+    margin: 0 40px;
+    font-weight: bold;
+    color:black;
+    }
+.info_doctor{
+position: absolute;
+width: 1000px;
+height: 650px;
+margin:174px 470px 3304px 490px;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 60px;
+display: flex;
+flex-flow: wrap;
+background-image: url(../image/view.png), url(../image/heart.png), url(../image/flower1.png), url(../image/flower2.png);
+background-repeat: no-repeat,no-repeat,no-repeat, no-repeat;
+background-position:center, right top,bottom 10px left 10px, bottom 10px right 10px;
+}
+.foto_doctor{
+width: 205px;
+height: 205px;
+background-image: url(../image/avatar.png);
+margin: 100px 0 50px 60px;
+float:left;
+}
+span{
+    color:#EC5863;
+    font-weight:bold;
+}
+label{
+    margin:0 0 0 40px;
+}
+
+.profile_doctor{
+    font-style: normal;
+    font-weight:bold;
+    font-size: 36px;
+    display: flex;
+    color:#7998F0;
+    flex-direction: column;
+    line-height: 1.7;
+    margin:50px 0 0 10px;
+    overflow: hidden;   
+}
+.priem{
+position: absolute;
+width: 600px;
+height: 650px;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 60px;
+margin:900px 0 0 450px;
+}
+.priem h2{
+font-style: normal;
+font-weight:bold;
+font-size: 48px;
+display: flex;
+text-align: center;
+color: #7998F0;
+margin:30px 0 0 50px;
+}
+input {
+    outline: none;
+    border: none;
+  }
+.date{
+width: 250px;
+height: 60px;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 60px;
+margin:20px 0 0 170px;
+}
+.time{
+display: flex;
+flex-flow: wrap;
+align-content: space-around;
+justify-content: space-around;
+margin:40px 60px;
+grid-gap:40px  10px;
+}
+.text1{
+width: 112px;
+height: 50px;  
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 60px;
+}
+.boll_list{
+position: absolute;
+width: 1200px;
+height: 800px;
+margin: 1600px 0 0 450px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 60px;
+background-image: url(../image/view.png), url(../image/flower1.png), url(../image/flower2.png);
+background-repeat: no-repeat,no-repeat,no-repeat;
+background-position:center,bottom 10px left 10px, bottom 10px right 10px;
+background-size:70%, 10%, 10%;
+}
+.priemm, .ekp_form{
+position: absolute;
+font-style: normal;
+font-weight:bold;
+font-size: 36px;
+display: flex;
+color:#7998F0;
+margin-left:auto;
+flex-direction: column;
+line-height: 3.0;
+padding:40px 0 0 40px;
+padding-right:200px;
+}
+.btn4,.btn5,.btn6,.btn7,.btn8{
+    position: absolute;
+    text-decoration:none;
+    color:white;
+    font-size: 24px;
+    background: #7998F0;
+    cursor: hand;
+    border: 0;
+    width: 200px;
+    height: 50px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius:30px;
+}
+.btn4{
+    margin:20px 250px 3782px 900px;
+}
+.btn5{
+    margin:130px 250px 3782px 900px;
+}
+.btn6{
+    margin:240px 250px 3782px 900px;
+}
+.btn7{
+    margin:350px 250px 3782px 900px;
+}
+.btn8{
+    margin:460px 250px 3782px 900px;
+}
+.ekp{
+position: absolute;
+width: 1200px;
+height: 800px;
+margin: 2500px 0 0 450px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 60px;
+background-image: url(../image/view.png), url(../image/flower1.png), url(../image/flower2.png);
+background-repeat: no-repeat,no-repeat,no-repeat;
+background-position:center,bottom 10px left 10px, bottom 10px right 10px;
+background-size:70%, 10%, 10%;
+}
+
+.speciali_label
+{
+  font-size: 28px;
+  font-family: 'Rubik', sans-serif;
+  font-weight:bold;
+  color: #EC5863;
+
+}
+
+.speciali_input
+{
+
+    margin-left: 15px;
+  text-align: start;
+  font-size: 28px;  
+  width: 400px;
+  font-family: 'Rubik', sans-serif;
+  font-weight:bold;
+  color: #7998F0;
+  border: none;
+  outline: none;
+  background: none;
+
+
+ 
+ 
+  
+}
+
+
+

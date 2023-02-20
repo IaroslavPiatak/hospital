@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+}
+.container {
+    position: relative;
+    width: 1400px;
+  
+ 
+    
+}
+
+.content
+{
+   
+    width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+
+.navbar {
+    margin-top: 50px;
+    width: 1400px;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+
+.navbar_exit {
+    text-decoration: none;
+    text-align: center;
+    font-size: 32px;
+ 
+    font-weight: bold;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar_exit:hover {
+    color: #EC5863;
+}
+
+.talon{
+    width:600px;
+    height:400px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-top: 50px;
+    background-image:url(../image/eyes.png),url(../image/flower.png),url(../image/talone.png);
+    background-repeat: no-repeat;
+    background-position:right 75px bottom 40px, right 40px bottom, left 220px  top 35px;
+  }
+  .talon label{
+    color:#EB5569;
+    font-size: 26px;
+    flex-direction: column;
+    font-weight: bold;
+    display:flex;
+    line-height: 2.2;
+    font-family: 'Rubik', sans-serif;
+ 
+
+  }
+  .talon p {
+    color: #7998F0;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Rubik', sans-serif;
+
+  }
+
+  .talon_title
+  {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .talon_text
+  {
+    width: 70%;
+    margin-left: 45px;
+   
+
+  }
+
+  .talone_button
+{
+  
+  text-decoration: none;
+  color: white;
+  font-size: 28px;
+  background: #7998F0;
+  cursor: hand;
+  border: 0;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 30px;
+  font-family: 'Rubik', sans-serif;
+  margin-left: 125px;
+  margin-top: 15px;
+
+
+}
+
+.warrning
+{
+  width: 1400px;
+  margin-top: 300px;
+  font-size: 64px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  color:#7998F0;
+  text-align: center;
+ 
+}
+

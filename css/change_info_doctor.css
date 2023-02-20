@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  
+  .container{
+    
+      width:1400px;
+   
+      display: flex;
+    
+      align-items: center;
+      flex-direction: column;
+    
+  }
+  .navbar {
+   
+      width: 1400px;
+      height: 70px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   
+    
+    }
+    
+    /*Ссылки навигации*/
+    .navbar_a {
+      text-decoration: none;
+      text-align: center;
+      font-size: 32px;
+    
+      font-weight: bold;
+      color: black;
+      font-family: 'Rubik', sans-serif;
+    }
+    
+    .navbar_exit {
+      text-decoration: none;
+      text-align: center;
+      font-size: 32px;
+    
+      font-weight: bold;
+      color: black;
+      font-family: 'Rubik', sans-serif;
+    }
+    
+    .navbar_exit:hover {
+      color: #EC5863;
+    }
+    
+    .navbar_a:hover {
+      color: #7998F0;
+    }
+  .info_doctor{
+  margin-top: 50px;
+  width: 1000px;
+  height: 650px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 60px;
+  display: flex;
+  flex-flow: wrap;
+  background-image: url(../image/view.png), url(../image/heart.png), url(../image/flower1.png), url(../image/flower2.png);
+  background-repeat: no-repeat,no-repeat,no-repeat, no-repeat;
+  background-position:center, right top,bottom 10px left 10px, bottom 10px right 10px;
+  
+  }
+  .foto_doctor{
+  width: 210px;
+  height: 210px;
+  background-image: url(../image/avatar.png);
+  margin: 100px 0 50px 60px;
+  float:left;
+  }
+  span{
+      color:#EC5863;
+      font-weight:bold;
+  }
+  label{
+      margin:0 0 0 40px;
+  }
+  
+  .profile_doctor{
+      font-style: normal;
+      font-weight:bold;
+      font-size: 36px;
+      display: flex;
+      color:#7998F0;
+      flex-direction: column;
+      line-height: 1.7;
+      margin:50px 0 0 0px;
+      overflow: hidden;   
+  
+      
+  }
+  
+  .speciali_label
+  {
+    font-size: 28px;
+    font-family: 'Rubik', sans-serif;
+    font-weight:bold;
+    color: #EC5863;
+  
+  }
+  
+  .speciali_input
+  {
+  
+      margin-left: 15px;
+    text-align: start;
+    font-size: 28px;  
+    width: 400px;
+    font-family: 'Rubik', sans-serif;
+    font-weight:bold;
+    color: #7998F0;
+    border: none;
+    outline: none;
+    background: none;
+  }
+  .info_submit
+  {
+  text-decoration: none;
+  color: white;
+  font-size: 28px;
+  background: #7998F0;
+  cursor: hand;
+  border: 0;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 30px;
+  font-family: 'Rubik', sans-serif;
+  }
+  
+  .block_info1
+  {
+  
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+
+  .cabinet_selected {
+    margin-left: 10px;
+    text-align: center;
+    font-size: 26px;  
+    width: 200px;
+    font-family: 'Rubik', sans-serif;
+    font-weight:bold;
+    color: #7998F0;
+    border-radius: 10px;
+    border-color: #EC5863;
+  }
+  
+  
+  
+  
+  

@@ -1,0 +1,354 @@
+/*Главный контейнер стиль*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+.container{
+    position:relative;
+    width:1920px;
+    height:600px;
+  
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-size:8%, 8%, 8%;
+    background-position:left 100px top 2600px, right 50px top 1900px,right 60px top 2900px;
+}
+/*Навигация*/
+.navbar {
+    position:absolute;
+    width:1400px;
+    height:71px;
+    margin:40px 220px 2311px 240px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+/*Ссылки навигации*/
+.navbar_a{
+    text-decoration:none;
+    text-align:center;
+    font-size: 32px;
+    margin: 0 40px;
+    font-weight: bold;
+    color:black;
+    font-family: 'Rubik', sans-serif;
+    }
+.navbar_exit
+{
+  text-decoration:none;
+    text-align:center;
+    font-size: 32px;
+    margin: 0 40px;
+    font-weight: bold;
+    color:black;
+    font-family: 'Rubik', sans-serif;
+}
+.navbar_exit:hover
+{
+  color:#EC5863;
+}
+
+.navbar_a:hover
+{
+  color:#7998F0;
+}
+/*Шапка*/
+.header{
+
+
+  width:1400px;
+
+
+background-repeat: no-repeat;
+background-position: left 40px top 40px;
+margin:0 0 0 100px;
+}
+/*Статус*/
+  .speciali{
+
+      position: absolute;
+      width:800px;
+      height:50px;
+      margin:150px 499px 50px 800px;
+      font-size:36px;
+      color: #EC5863; 
+      font-weight: bold;
+      display: flex;
+      flex-flow: wrap;
+     
+  }
+
+
+
+
+
+/*Текст в форме ввода*/
+
+/*Изменить*/
+.speciali_submit{
+  
+    text-decoration:none;
+    color:white;
+    font-size: 28px;
+    background: #7998F0;
+    cursor: hand;
+    border: 0;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius:30px;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 120px;
+
+   
+  }
+  /*Кнопка изменить 2*/
+  .btn{
+    position: absolute;
+    text-decoration:none;
+    color:white;
+    font-size: 24px;
+    justify-content: center;
+    margin:650px 250px 3782px 100px;
+    background: #7998F0;
+    cursor: hand;
+    border: 0;
+    width: 300px;
+    height: 60px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius:30px;
+  }
+  /*Кнпока открепиться*/
+  .btn1{
+    position: absolute;
+    text-decoration:none;
+    color:white;
+    font-size: 24px;
+    justify-content: center;
+    margin:650px 250px 3782px 600px;
+    background: #EC5863;
+    cursor: hand;
+    border: 0;
+    width: 300px;
+    height: 60px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius:30px;
+  }
+  /*Ваша информация*/
+.info{
+position: absolute;
+width: 1200px;
+height: 900px;
+margin:100px 0 0 400px;
+background-image: url(../image/view.png), url(../image/heart.png), url(../image/flower1.png), url(../image/flower2.png);
+background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
+background-position:center,right 150px top 100px,bottom 10px left 10px, bottom 10px right 10px;
+background-size:70%, 15%, 10%, 10%;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 60px;
+  }
+  /*Заголовок*/
+.info_title{
+  width: 600px;
+margin:10px 200px 801px 350px;
+position: absolute;
+font-style: normal;
+font-weight:bold;
+font-size: 48px;
+display: flex;
+text-align: center;
+color: #7998F0;
+font-family: 'Rubik', sans-serif;
+ }
+ /*label с информацией*/
+ .info1{
+margin:100px 200px 801px 100px;
+padding-left:100px;
+position: absolute;
+font-style: normal;
+font-weight:bold;
+font-size: 36px;
+display: flex;
+color:#7998F0;
+margin-left:auto;
+flex-direction: column;
+line-height: 1.7;
+}
+
+ /*больничный лист главный блок*/
+.bol_list{
+position: absolute;
+width: 1200px;
+height: 800px;
+margin:1100px 0 0 400px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 60px;
+background-image: url(../image/view.png), url(../image/flower1.png);
+background-repeat: no-repeat,no-repeat,no-repeat;
+background-position:center,bottom 10px left 10px, bottom 10px right 10px;
+background-size:70%, 10%, 15%;
+}
+ /*заголовок больничного листа*/
+.bol_list h2{
+  margin:50px 0 0 0;
+  font-style: normal;
+  font-weight:bold;
+  font-size: 48px;
+  text-align: center;
+  color: #7998F0;
+}
+ /*информация с больничного листа*/
+.boll_list, .priemm, .future_priem{
+position: absolute;
+font-style: normal;
+font-weight:bold;
+font-size: 36px;
+display: flex;
+color:#7998F0;
+margin-left:auto;
+flex-direction: column;
+line-height: 1.7;
+padding:40px 0 0 40px;
+}
+ /*выделенный текст*/
+span{
+  color:#EC5863;
+  font-weight:bold;
+  padding-right:200px;
+}
+.btn3, .btn4, .btn2, .btn5{
+  position: absolute;
+  text-decoration:none;
+  color:white;
+  font-size: 24px;
+  margin:10px 250px 3782px 900px;
+  background: #7998F0;
+  cursor: hand;
+  border: 0;
+  width: 200px;
+  height: 50px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius:30px;
+}
+.priem{
+position: absolute;
+width: 1200px;
+height: 800px;
+margin:2000px 0 0 400px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 60px;
+background-image: url(../image/view.png), url(../image/flower1.png), url(../image/flower2.png);
+background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
+background-position:center,bottom 10px left 10px, bottom 10px right 10px;
+background-size:70%,  10%, 10%;
+}
+h2{
+  margin:50px 0 0 0;
+  font-style: normal;
+  font-weight:bold;
+  font-size: 48px;
+  text-align: center;
+  color: #7998F0;
+}
+label{
+  margin:0 0 0 40px;
+}
+.future_priem{
+  position: absolute;
+  width: 1200px;
+  height: 800px;
+  margin:2900px 0 0 400px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 60px;
+  background-image: url(../image/view.png), url(../image/flower1.png), url(../image/flower2.png);
+background-repeat: no-repeat,no-repeat,no-repeat;
+background-position:center,bottom 10px left 10px, bottom 10px right 10px;
+background-size:70%, 10%, 10%;
+}
+
+.speciali_label
+{
+  font-size: 36px;
+  font-family: 'Rubik', sans-serif;
+  font-weight:bold;
+  color: #EC5863;
+}
+
+
+.speciali_input
+{
+
+  margin-left: 10px;
+  text-align: start;
+  font-size: 36px;  
+  width: 400px;
+  font-family: 'Rubik', sans-serif;
+  font-weight:bold;
+  color: #7998F0;
+  border: none;
+  outline: none;
+  background: transparent;
+  
+}
+
+
+
+.block{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+/**/
+/*Блок с информацией пациента*/
+.info_form
+{
+  height: 720px;
+  margin-top: 100px;
+
+}
+/*Сюда входят input and label в форме с информацией пациента*/
+.block_info
+{
+  margin-left: 100px;
+  display: flex;
+  margin-bottom: 25px;
+
+}
+
+.block_info_button
+{
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.info_submit
+{
+  text-decoration:none;
+    color:white;
+    font-size: 28px;
+    background: #7998F0;
+    cursor: hand;
+    border: 0;
+    cursor: pointer;
+    width: 400px;
+    height: 50px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius:30px;
+    font-family: 'Rubik', sans-serif;
+
+
+}
+
+.speciali_input_change
+{
+    margin-left: 10px;
+    text-align: start;
+    font-size: 36px;  
+    width: 400px;
+    font-family: 'Rubik', sans-serif;
+    font-weight:bold;
+    color: #7998F0;
+    border-radius: 10px;
+    border-color: #EC5863;
+    background:transparent;
+}

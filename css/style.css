@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+html, body, div {  
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+    font-family: 'Rubik', sans-serif;
+  }
+  .forms{ /*главный блок формы с фоном*/
+    position:relative;
+    width:996.64px; 
+    height: 600px; 
+    border-radius: 60px; 
+    margin: 10% auto; 
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    background-image: url(../image/doctor.png), url(../image/doctor_woman.png),url(../image/flower.png), url(../image/view.png), url(../image/heart.png);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: left 30px bottom 60px, right 60px bottom 60px, left 230px bottom 6px, center 57px, right 275px top 35px;
+  }
+  .log{/*поле логин*/
+    position: absolute;
+    width: 560px;
+    height: 75px;
+    margin:185px 216.64px 340px 220px; 
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius:30px;
+    text-align: center;
+    font-size: 24px;
+    font: weight 600;
+    font-family: 'Rubik',sans-serif ;
+  }
+
+
+
+  .pas{/*поле пароль*/
+    position: absolute;
+    width: 560px;
+    height: 75px;
+    margin:300px 216.64px 225px 220px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius:30px;
+    text-align: center;
+    font-size: 24px;
+    font-weight:400;
+  }
+  .enter{/*Кнопка войти*/
+    position: absolute;
+    width: 200px;
+    height: 51.14px;
+    background: #FFFFFF;
+    margin:412px 396.64px 136.86px 400px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    color: black;
+    font-size: 28px;
+    font-weight: 500;
+    text-align:center;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+  }
+
+  .enter:hover{
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+
+  }
+
+  .enter:active{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  }
+  input {/*обнуляет стиль для строки ввода*/
+    outline: none;
+    border: none;
+  }
+  ::placeholder { /*для полей формы регистрации изменение текста и т.д.*/
+    color: black;
+    font-size: 24px;
+    text-align:center;
+  }
+  :focus::-webkit-input-placeholder {/*команда для того, чтобы при вводе логина и пароля, текст названия убирался*/
+    color: transparent
+}
+.sil{/*ссылка зарегистрироваться*/
+    position: absolute;
+    text-decoration:none;
+    color:black;
+    font-size: 24px;
+    justify-content: center;
+    margin:487px 371.64px 73px 375px;
+}
+.lis{/*ссылка забыли пароль*/
+    position: absolute;
+    text-decoration:none;
+    color:black;
+    font-size: 24px;
+    justify-content: center;
+    margin:534px 374.74px 26px 398px; 
+}
+.p1{/*Слово авторизация*/
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    padding-top: 70px;
+    padding-left:374px;
+    font-family: 'Rubik', sans-serif;
+ }

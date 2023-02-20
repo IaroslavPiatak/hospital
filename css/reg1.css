@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+html, body, div {  
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+    font-family: Rubik;
+  }
+  .forms{ /*главный блок формы с фоном*/
+    position:relative;
+    width:1200px; 
+    height: 600px; 
+    border-radius: 60px; 
+    margin: 10% auto; 
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    background-image: url(../image/eyes.png), url(../image/view.png), url(../image/flower.png);
+    background-repeat: no-repeat, no-repeat,no-repeat;
+    background-position:  right 63px bottom 79px, center 57px, right 30px bottom 30px ;
+   
+  
+  }
+  .log{/*поле логин*/
+    position: absolute;
+    width: 400px;
+    height: 70px;
+    margin:149px 400px 381px 400px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius:30px;
+    text-align: center;
+    font-size: 24px;
+    font-weight:400;
+  }
+  input {/*обнуляет стиль для строки ввода*/
+    outline: none;
+    border: none;
+  }
+  ::placeholder { /*для полей формы регистрации изменение текста и т.д.*/
+    color: black;
+    font-size: 24px;
+    text-align:center;
+  }
+  :focus::-webkit-input-placeholder {/*команда для того, чтобы при вводе логина и пароля, текст названия убирался*/
+    color: transparent
+}
+.pas{/*поле пароль*/
+    position: absolute;
+    width: 400px;
+    height: 70px;
+    margin:250px 624px 280px 176px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius:30px;
+    text-align: center;
+    font-size: 24px;
+    font-weight:400;
+  }
+  .pas1{/*повтор пароля*/
+    position: absolute;
+    width: 400px;
+    height: 70px;
+    margin:250px 176px 280px 624px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius:30px;
+    text-align: center;
+    font-size: 24px;
+    font-weight:400;
+  }
+  button{/*кнопка следущий шаг*/
+    position: absolute;
+    text-decoration:none;
+    color:black;
+    font-size: 24px;
+    justify-content: center;
+    margin:360px 226px 171.96px 674px;
+    background: #fff;
+    cursor: hand;
+    border: 0;
+    cursor: pointer;
+    width: 300px;
+    height: 68.04px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius:30px;
+  }
+.btn{/*кнопка предыдущий шаг*/
+    position: absolute;
+    text-decoration:none;
+    color:black;
+    font-size: 24px;
+    justify-content: center;
+    margin:360px 674px 171.96px 226px;  
+    background: #fff;
+    cursor: hand;
+    border: 0;
+    cursor: pointer;
+    width: 300px;
+    height: 68.04px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius:30px;
+} 
+.p1{/*Слово регистрация*/
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    margin:58px 476px 495px 475px;
+ }
